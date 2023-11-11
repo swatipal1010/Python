@@ -34,8 +34,16 @@ str1 = "Python"
 result = str(num1d)+str1
 print(result)
 
+#Mutli-line string
+str2 = '''
+Hello Everyone!
+Namaste!
+Hola!
 '''
-PRODUCES VALUE ERROE AS int() EXPECTS A VALID INTEGER NUMBER AS ITS ARGUMENT
+print(str2)
+
+
+'''PRODUCES VALUE ERROE AS int() EXPECTS A VALID INTEGER NUMBER AS ITS ARGUMENT
 num1d = 12
 str1 = "Python"
 result = num1d+int(str1)
