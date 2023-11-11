@@ -16,6 +16,12 @@ for i in list1:
 nestList = [4,8,[10,7,12],20]
 print("Element at nestList[2][1] in the list",nestList, "is:",nestList[2][1])
 
+
+#Negative indexing
+listNeg = [6,10,8,2,0,7]
+print(listNeg[-2])
+
+
 #Insert the new item at the beginning of the list -> (insert method)
 num1 = list1.insert(0,55)
 print(list1)
