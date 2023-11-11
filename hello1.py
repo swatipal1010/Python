@@ -35,7 +35,7 @@ result = str(num1d)+str1
 print(result)
 
 '''
-PRODUCES VALUE ERROE AS int() EXPECTS A VALID INTEGER NUMBER AS ITS ARGUMENT
+PRODUCES VALUE ERROR AS int() EXPECTS A VALID INTEGER NUMBER AS ITS ARGUMENT
 num1d = 12
 str1 = "Python"
 result = num1d+int(str1)
