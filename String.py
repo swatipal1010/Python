@@ -16,12 +16,15 @@ print(str2)
 slice_str = "My name is Programmer"
 print(slice_str[0:10])
 print(slice_str[2:14])
-print(slice_str[-1])
-print(slice_str[0:])
+print(slice_str[-1])        #Prints the last character
+print(slice_str[0:])        #Prints the whole string
 print(slice_str[:14])
-print(slice_str[-1:])
+print(slice_str[:-1])       #Prints the whole string except the last character
+print(slice_str[:])         #Prints the whole string
 print(slice_str[0:12:2])   #Characters from index 0 to 9 gets printed but with a gap of 2(Every second character from the character you're on currently)
 
 #Reverse a string -> (revere method)
 rev_str = "Hello Everyone"
-print(rev_str[::-1])
+print(rev_str[::-1])        
+
+print(rev_str[0:-2])        #Prints the whole string except the last two characters     
